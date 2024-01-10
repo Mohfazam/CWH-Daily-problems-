@@ -1,0 +1,4 @@
+print("Enter the Price: ")
+price = int(input())
+total_price = price + (price * 0.18)
+print("total price after adding 18% tax is =", total_price)
