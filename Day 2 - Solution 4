@@ -1,0 +1,11 @@
+a = int(input(("Enter the value of variable a : ") ))
+
+b = int(input(("enter the value of variable b : ") ))
+
+temp = 0
+temp = a
+a = b
+b = temp 
+print("The swapped value of a is :",a)
+print("the swapped value of b is : ", b)
+
